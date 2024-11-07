@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/run_code"
+        android:icon="@drawable/ic_light"
+        app:showAsAction="always"
+        android:title="Compile and Run" />
+
+
+    <item
+        android:id="@+id/user_input"
+        android:title="User Input"/>
+
+    <item
+        android:id="@+id/choose_lang"
+        android:title="Language">
+        <menu>
+            <item
+                android:id="@+id/lang_c"
+                android:title="C"/>
+            <item
+                android:id="@+id/lang_java"
+                android:title="Java"/>
+            <item
+                android:id="@+id/lang_cpp"
+                android:title="CPP"/>
+            <item
+                android:id="@+id/lang_p2"
+                android:title="Python 2.7"/>
+            <item
+                android:id="@+id/lang_p3"
+                android:title="Python 3.7"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/open_file"
+        android:title="Open file"/>
+    <item
+        android:id="@+id/save_file"
+        android:title="Save file"/>
+    <item
+        android:id="@+id/editor_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"/>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppIDE</string>
+
+    <!-- Title for the tab containing the editor fragment -->
+    <string name="editor_title">Editor</string>
+
+    <!-- Title for the tab containing the output fragment -->
+    <string name="output_title">Output</string>
+
+</resources>
